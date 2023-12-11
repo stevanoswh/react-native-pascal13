@@ -1,22 +1,24 @@
 import { StyleSheet, TextInput, TouchableOpacity, View, Image, Text } from "react-native";
 import Color from '../Shared/Color'
 import { Dimensions } from 'react-native';
-import { useState } from "react";
-import { useUser } from "../Context/UserContext";
+import { useState, useContext } from "react";
+import { UserContext, useUser } from "../Context/UserContext";
 
 
 export default function Login({navigation}){
-    const {setUser} = useUser()
+    const {storeUser} = useContext(UserContext)
 
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
     const handleLogin = () => {
+        
         const mockUsername = 'stevano'
         const mockPassword = '123456'
 
         if (username === mockUsername && password === mockPassword) {
-            setUser({name: username})
+            const userData = {name: username}
+            storeUser(userData)
             navigation.navigate('Welcome')
         } else {
             alert('Invalid Credentials')
