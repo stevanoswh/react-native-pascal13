@@ -27,6 +27,15 @@ export const UserProvider = ({children}) => {
         }
     }
 
+    const logout = async () => {
+        try {
+            await AsyncStorage.removeItem('user')
+            setUser(null)
+        } catch (e) {
+            console.error(e)
+        }
+    }
+
     useEffect(() => {
         loadUser().then((userData) => {
             if(userData) {
@@ -36,7 +45,7 @@ export const UserProvider = ({children}) => {
     }, [])
 
     return (
-        <UserContext.Provider value={{user, storeUser}}>
+        <UserContext.Provider value={{user, storeUser, logout}}>
             {children}
         </UserContext.Provider>
     )

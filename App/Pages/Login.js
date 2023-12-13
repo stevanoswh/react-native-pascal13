@@ -19,7 +19,7 @@ export default function Login({navigation}){
         if (username === mockUsername && password === mockPassword) {
             const userData = {name: username}
             storeUser(userData)
-            navigation.navigate('Welcome')
+            navigation.navigate('Home')
         } else {
             alert('Invalid Credentials')
         }
