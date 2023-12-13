@@ -2,7 +2,7 @@ import { StyleSheet, TextInput, TouchableOpacity, View, Image, Text } from "reac
 import Color from '../Shared/Color'
 import { Dimensions } from 'react-native';
 import { useState, useContext } from "react";
-import { UserContext, useUser } from "../Context/UserContext";
+import { UserContext } from "../Context/UserContext";
 
 
 export default function Login({navigation}){

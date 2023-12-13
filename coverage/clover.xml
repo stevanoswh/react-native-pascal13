@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1702458888958" clover="3.2.0">
+  <project timestamp="1702458888958" name="All files">
+    <metrics statements="40" coveredstatements="11" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="1" elements="57" coveredelements="12" complexity="0" loc="40" ncloc="40" packages="4" files="4" classes="4"/>
+    <package name="Assets.Images">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="login.png" path="C:\Users\USER\react-native-pascal13\App\Assets\Images\login.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Context">
+      <metrics statements="25" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="UserContext.js" path="C:\Users\USER\react-native-pascal13\App\Context\UserContext.js">
+        <metrics statements="25" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Pages">
+      <metrics statements="14" coveredstatements="7" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Login.js" path="C:\Users\USER\react-native-pascal13\App\Pages\Login.js">
+        <metrics statements="14" coveredstatements="7" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Shared">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Color.js" path="C:\Users\USER\react-native-pascal13\App\Shared\Color.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
